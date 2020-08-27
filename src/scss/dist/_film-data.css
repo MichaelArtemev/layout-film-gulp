@@ -1,0 +1,22 @@
+.section-film-data {
+  background-color: #fff;
+}
+
+.film-data__left p {
+  font-size: 18px;
+  font-weight: 400;
+}
+.film-data__left h3 {
+  font-size: 18px;
+  font-weight: 400;
+}
+.film-data__left h4 {
+  font-size: 14px;
+  font-weight: 400;
+}
+.film-data__left input {
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  border: 0;
+}

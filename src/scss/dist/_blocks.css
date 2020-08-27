@@ -1,0 +1,9 @@
+body {
+  font-family: "Poppins", sans-serif;
+  color: #3e505e;
+}
+
+.main-button {
+  border: none;
+  outline: none;
+}

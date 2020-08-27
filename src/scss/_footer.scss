@@ -1,0 +1,45 @@
+.section-footer {
+
+    border-top: 1px solid #f1f5f8;
+}
+
+.footer {
+
+    // .footer__body
+
+    &__body {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        padding: 25px 0px;
+
+        p {
+            font-size: 14px;
+
+        }
+    }
+
+    // .footer__social
+
+    &__social {
+        display: flex;
+        align-items: center;
+        transition: .4s;
+
+        img {
+            transition: .4s;
+        }
+
+        :hover {
+            cursor: pointer;
+            transform: scale(1.1);
+        }
+
+        img {
+            margin-right: 10px;
+        }
+    }
+}
+
+.container {}

@@ -1,0 +1,14 @@
+.about__body h1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 35px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.about__info {
+  display: flex;
+}
+.about__block {
+  background-color: #fff;
+  max-width: 380px;
+}

@@ -1,0 +1,29 @@
+.section-join {
+    position: relative;
+    z-index: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.join {
+
+    // .join__body
+
+    &__body {}
+
+    // .join__btns
+
+    &__btns {
+        padding-top: 40px;
+        padding-bottom: 85px;
+        margin:0 auto;
+    }
+}
+
+.container {}
+
+.main-button {}
+
+.semi {}

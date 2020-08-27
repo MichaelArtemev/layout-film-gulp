@@ -1,0 +1,27 @@
+.second-section {
+  background-color: #fff;
+}
+
+.second-body__top {
+  display: flex;
+}
+.second-body__top h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.second-body__top p {
+  font-size: 21px;
+  font-weight: 400;
+}
+.second-body__bottom {
+  display: grid;
+  grid-template-columns: repeat(3, 360px);
+  grid-column-gap: 60px;
+  grid-row-gap: 85px;
+}
+.second-body__bottom p {
+  font-size: 18px;
+}
+.second-body__info {
+  max-width: 100%;
+}

@@ -1,0 +1,40 @@
+.second-beat {
+    background-color: $smoke;
+}
+
+.beat {
+
+    // .beat__body
+
+    &__body {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 0px 50px 0px;
+        color: $white;
+    }
+
+    // .beat__left
+
+    &__left {
+        h1{
+            font-size: 35px;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+    }
+
+    // .beat__right
+
+    &__right {}
+}
+
+.main-button {}
+@media(max-width:898px){
+    .beat__body{
+        flex-direction: column;
+    }
+    .beat__right {
+        padding-top: 30px;
+    }
+}

@@ -1,0 +1,18 @@
+.section-about-bottom {
+  padding-top: 170px;
+}
+
+.about-bottom__content h1 {
+  font-size: 35px;
+  font-weight: 700;
+}
+.about-bottom__content p {
+  font-size: 18px;
+  font-weight: 400;
+}
+.about-bottom__nav {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+}
