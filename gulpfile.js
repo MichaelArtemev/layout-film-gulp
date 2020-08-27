@@ -25,7 +25,10 @@ let path = {
   clean: "./" + project_folder + "/",
 };
 
-let { src, dest } = require("gulp"),
+let {
+  src,
+  dest
+} = require("gulp"),
   gulp = require("gulp"),
   browsersync = require("browser-sync").create(),
   fileInclude = require("gulp-file-include"),
@@ -97,7 +100,9 @@ function images() {
     .pipe(
       imagemin({
         progressive: true,
-        svgoPlugins: [{ removeViewBox: false }],
+        svgoPlugins: [{
+          removeViewBox: false
+        }],
         interlaced: true,
         optimizationLevel: 3, // 0 to 7
       })

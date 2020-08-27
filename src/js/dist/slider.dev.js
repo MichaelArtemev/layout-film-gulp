@@ -125,7 +125,6 @@ var sliderFunc = function sliderFunc() {
 
         var itemsLeft = itemsCount - (Math.abs(position) + slidesToShow * itemWidth) / itemWidth;
         position -= itemsLeft >= slidesToScroll ? movePosition : itemsLeft * itemWidth;
-        console.log(position);
         setPosition();
         checkBtns();
       }, iterval);
